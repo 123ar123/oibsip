@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page project</title>
+   
+    <style>
+        .navbar{
+            background-color:greenyellow;
+            border-radius: 30px;
+            
+
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar ul li {
+            text-color:greenyellow;
+            font-size:27px;
+            font-style:italic;
+            text-decoration: aliceblue;
+            float:left;
+            list-style: none;
+            margin: 23px 23px;
+        }
+        
+        .navbar li a{
+            padding-right:8px;
+            padding: 3px;
+        }
+        
+       .search{
+        float: right;
+        color: black;
+        padding: 20px 80px;
+        border-radius: 4px;
+
+       }
+       .container{
+        background-color: antiquewhite;
+        border: 4px solid greenyellow;
+        padding:15px;
+        margin:20px;
+       }
+       #form{
+        background-color: aquamarine;
+        padding-left: 450px;
+        padding-top: 30px;
+        cursor: pointer;
+       }  
+       img{
+        padding-left:350px ;
+       }
+       h2{
+        padding-left: 350px;
+       }
+
+       
+      
+       
+       
+
+    </style>
+</head>
+<body>
+   <header>
+    <div class="navbar">
+        
+        <ul>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>ContactUs</li>
+            <li><a href="#"></a>Service</li>
+             <li><a href="#"></a>Home</li>
+             <div class="search"> 
+                <input type="search" name="name" id="search" placeholder="Landing In Your Page" >
+             </div>
+        </ul>
+   </div>
+        
+
+       
+       
+    
+   <div class="container">
+    <h2>Landing in your Page:</h2>
+    <h3>hi, i am ARYAN RAJ and am a web developer intern at Oasis infobyte.</h3>
+    <p id="first">i am currently pursuing my b.tech in computer science engg. from <span>Roorkee Institute  Of Technology and  I want to become a software developer.</span></p>
+    
+   
+   
+   
+   </div>
+    
+   <div class="boxes">
+     <img src="https://images.unsplash.com/photo-1664574654589-8f6c9b94c02d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="remote image" width="550px">
+     <h3 class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam perferendis consequuntur commodi quidem suscipit illum minus? Ab illo aspernatur dolor non autem ipsam quidem veritatis tempora, consequatur, ipsa nostrum porro voluptates amet eligendi blanditiis. Explicabo atque eum quibusdam, dicta autem libero at ipsam sapiente perspiciatis deserunt. Explicabo dolorem similique ab.</h3>
+      <img src="https://media.istockphoto.com/id/458641929/photo/starbucks-coffee-sign-hanging-outside-a-shop.jpg?s=612x612&w=0&k=20&c=bff28vACzPQRqZI6A8HgPasmU-aGiRxu08Fu29NkXak=" alt="">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, accusamus itaque ratione eum placeat officiis dolorum magni ducimus rerum, 
+    modi nostrum omnis fuga. Praesentium voluptas atque doloribus aliquam quam ea!</p>
+    <img src="https://static.toiimg.com/photo/61575280.cms" alt="">
+    <p>These accidents can occur from faulty wiring, defective products, discarded cigarettes left on flammable materials, and smoke detectors that fail to activate. Car fires can trap victims inside a vehicle. A major concern for 
+        anyone involved in a fire accident is the damage smoke inhalation can cause to the lungs</p>
+</div>
+   
+
+        
+    </header><hr>
+    <div id="form">
+          <h3>Contact Me:</h3>
+        <form>  
+            <label> Email: </label>         
+            <input type="text" name="Email" size="15"/> <br> <br>
+  <label> Firstname:</label>         
+  <input type="text" name="firstname" size="15"/> <br> <br>  
+  <label> Middlename: </label>     
+  <input type="text" name="middlename" size="15"/> <br> <br>  
+  <label> Lastname: </label>         
+  <input type="text" name="lastname" size="15"/> <br> <br> 
+ 
+  <label>
+        </div>
+        <table id="footer" border="0" width="100%"
+        cellpadding="0" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15"
+                    cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td width="80%" valign="top">
+                            <font face="Verdana"
+                                color="#4CAF50" size="5">
+                                ©Copyright 2022 by nobody.
+                                All rights reserved.
+                            </font>
+                        </td>
+ 
+                        <td width="10%">
+                            <font face="arial" color="black" size="5">
+                                <a href="#header" style="text-decoration:none">
+                                    <font face="Verdana" color="#4CAF50" size="6">
+                                        <b>TOP ☝</b>
+                                    </font>
+                                </a>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+   
+   
+</body>
+</html>
+
+
+
+
+  
